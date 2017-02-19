@@ -12,12 +12,7 @@ class Pin extends commando.Command {
 	}
 
 	async run(message, args) {
-
-		if (message.patternMatches('-pin A')){
-			return true;
-		}
-
-		message.reply(message.message);
+		message.channel.sendMessage(args);
 	}
 }
 
