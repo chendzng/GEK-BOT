@@ -8,7 +8,8 @@ var token = 'MjgyODQwMTE4MDY5NTU5Mjk2.C4tEWw.PC77EkbRxFgQC3EIHY0Y7x4ibHs';
 
 bot.registry.registerGroups([
 		['random', 'random'],
-		['pin', 'pin']
+		['pin', 'pin'],
+		['csgo', 'csgo']
 	]);
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + '/commands')
